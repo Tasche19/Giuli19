@@ -1,0 +1,131 @@
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2015/08/04/09/00/backdrop-874452_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.flexbox{
+    display: flex;
+    
+
+}
+
+main{
+    float:left ;
+}
+
+
+aside{
+    margin-left:100px;
+}
+
+footer{
+    background-color:rgba(0, 0, 0, 0.322);
+    padding: 5px;
+    width: 100%;
+}
+
+#menu{
+    background:black;
+}
+#menu ul li{
+display: inline-block;
+}
+#menu ul li a{
+    color: ghostwhite;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+#menu ul li a:hover{
+    background:red;
+}
+#menu:active{
+    position: relative;
+    top: 5px;
+    border-bottom: none;
+    box-shadow: inset 1px 1px 2px red 2px 2px 2px;
+}
+
+h2{
+    color: red;
+}
+.Rojo{
+    color: red;
+}
+h1{
+    background-color: black;
+    text-align: center;
+    font-size:50px;
+}
+#Galeria{
+    text-align: center;
+}
+
+#Sobre Mi{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+
+
+.uno{
+    font-size: 65px;
+    color: greenyellow;
+}
+b{
+    color: red;
+}
+.uno{
+font: size 65px;;
+color: red;
+}
+
+.imagenes{
+    margin-left:150px;
+    padding-bottom: 30px;
+}
+
+.imagen{
+    margin-left:60px ;
+}
+
+.Derecha{
+    float: right;
+    padding-left: 20px;
+}
+.Izquierda{
+    float: left;
+    padding-right: 20px;
+ }
+
+.card-body{
+    color: black;
+}
+
+.card-footer{
+    color: black;
+}
+
+ 
+ #carouselExampleIndicators{
+    margin-left: 25%;
+    width: 50%;
+    height: 60%;
+ }
+
+
+    
+
+ .card{
+    background-color: green;
+    border: solid 10px black;
+
+    
+}
